@@ -24,7 +24,12 @@ section.content .container .row .border-black,
 section.content .container-fluid .row .border-black{border:0.1rem solid black}
 section.content .container .row .column-pad,
 section.content .container-fluid .row .column-pad{padding-top:2rem}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
 
+}
 .navbar {
   background-color:#fffecd;
   margin-right:50%;
@@ -38,7 +43,11 @@ img {
   font-size:70px;
   color:black;
   margin-bottom:0;
+  margin-left:10%;
+  margin-right:10%;
 }
 .row {
   background-color:#fffecd;
+  margin-left:10%;
+  margin-right:10%;
 }
